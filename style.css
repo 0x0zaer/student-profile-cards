@@ -1,0 +1,96 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(40, 44, 47);
+    background-image: url("./images/aka.jpg");
+    background-size: cover;
+
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 110px;
+
+
+}
+
+.card {
+    background-image: url(./images/bg1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15.5px;
+    width: 700px;
+    height: 300px;
+    padding: 10px;
+    color: aliceblue;
+    transition: transform 0.1s ease-in;
+
+}
+
+.card:hover {
+    background-image: url(./images/ita.webp);
+    background-size: cover;
+    transform: scale(1.02);
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.99);
+}
+
+h2 {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-left: 37px;
+    margin-top: 20px;
+
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-left: 35px;
+    transition: transform 0.2s ease-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid rgba(247, 14, 6, 0.471);
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    border-radius: 2%;
+    width: 90px;
+    margin-top: 235px;
+    margin-right: 27px;
+}
+
+span:hover {
+    background-color: red;
+    border: solid 3px rgb(16, 16, 42);
+
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
